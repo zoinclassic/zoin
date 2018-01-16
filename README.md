@@ -1,23 +1,23 @@
-Zoin
-=============================
+Zoin Classic
+============
 
-What is Zoin?
--------------
+What is Zoin Classic?
+---------------------
 
-Zoin is the implementation of the Zerocoin protocol ( http://zerocoin.org ) guaranteeing true financial anonymity.
+Zoin Classic is the implementation of the Zerocoin protocol ( http://zerocoin.org ) guaranteeing true financial anonymity.
 
  - 2.5 minute block target
  - 21.6 million total coins hardcap
- - 100 coins per block as subsidy(currently @50/block)
+ - 100 coins per block as subsidy(currently @!12.5/block)
  - Subsidy halves every 210,000 blocks (approximately 12 months)
 
 For more information, as well as an immediately useable, binary version of
-the zoin client sofware, see https://github.com/zoinofficial/zoin/releases.
+the zoin client sofware, see https://github.com/zoinclassic/zoin/releases.
 
 License
 -------
 
-Zoin is released under the terms of the MIT license. See `COPYING` for more
+Zoin Classic is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 
@@ -45,6 +45,8 @@ regularly to indicate new official, stable release versions of Zoin.
 
 Copyright
 ---------
+
+Copyright (c) 2018 Zoin Classic Developers
 
 Copyright (c) 2017 Zoin Developers
 
