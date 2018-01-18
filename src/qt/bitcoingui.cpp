@@ -77,7 +77,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     prevBlocks(0)
 {
     restoreWindowGeometry();
-    setWindowTitle(tr("Zoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("Zoin Classic") + " - " + tr("Wallet"));
     //this->setStyleSheet(QString("QToolButton:hover {background-color: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #121548, stop: 1 #4a0e95); "
     //                            "color:white;}"));
     //this->setStyleSheet(QString("QToolButton:hover {background-color: #B5DAFF; " "text-color:white; border-color: red;}"));
