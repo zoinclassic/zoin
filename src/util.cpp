@@ -1036,7 +1036,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "zoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "zoinclassic";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1048,10 +1048,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "zoin";
+    return pathRet / "zoinclassic";
 #else
     // Unix
-    return pathRet / ".zoin";
+    return pathRet / ".zoinclassic";
 #endif
 #endif
 }
